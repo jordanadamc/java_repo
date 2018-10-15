@@ -11,18 +11,17 @@ public class Jordan_K_Project1 {
     //that begin with 'M'.
     public static void main(String[] args) {
         
-        String userInput = "s";
+        String userInput = "m";
         String[] names = {"Bill", "Mike", "Joe", "Dave", "Sam", "Mary", 
             "George"};
         
         
             for (int i = 0; i < names.length; i++) 
-            if (names[i].trim().toLowerCase().startsWith(userInput.toLowerCase())==true)
+            if (names[i].trim().toLowerCase().startsWith(userInput.toLowerCase()
+                )==true)
             {                
                 System.out.println(names[i].toString());
             }
        
     }  
 }
-    
-
