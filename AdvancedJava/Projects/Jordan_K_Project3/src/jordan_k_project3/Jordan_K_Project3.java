@@ -49,6 +49,7 @@ public class Jordan_K_Project3 {
         return total;
     }
 
+    //Gets the average of all values in the array.
     public static double getAverage(int[][] array) throws IOException {
         int total = 0;
         double average = 0;
@@ -64,6 +65,7 @@ public class Jordan_K_Project3 {
         return average;
     }
 
+    //Gets the sum of a selected row and returns it back to main.
     public static int getRowTotal(int[][] array, int selectedRow) {
         int sum = 0;
         for (int row = 0; row < array.length; row++) {
@@ -72,6 +74,7 @@ public class Jordan_K_Project3 {
         return sum;
     }
 
+    //Gets the sum of a selected column and returns it to the main.
     public static int getColumnTotal(int[][] array, int selectedCol) {
         int sum = 0;
         for (int row = 0; row < array.length; row++) {
@@ -83,3 +86,10 @@ public class Jordan_K_Project3 {
     }
 
 }
+//    public static void getHighestInRow(){
+//        
+//    }
+//    public static void getLowestInRow(){
+//        
+//    }    
+

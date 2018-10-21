@@ -14,8 +14,7 @@ public class Jordan_K_Project1 {
         String userInput = "m";
         String[] names = {"Bill", "Mike", "Joe", "Dave", "Sam", "Mary", 
             "George"};
-        
-        
+                
             for (int i = 0; i < names.length; i++) 
             if (names[i].trim().toLowerCase().startsWith(userInput.toLowerCase()
                 )==true)
