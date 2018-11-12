@@ -13,11 +13,11 @@ import java.util.Scanner;
 public class Jordan_K_Project4 {
        
     public static void main(String[] args) {
-        double length;
-        double width;
+        double length=0.0;
+        double width = 0.0;
         double sqftCost;
         
-        RoomDimension cost = new RoomDimension();
+        RoomDimension cost = new RoomDimension(length,width);
         
         //Get the length from the user.
         Scanner userLength = new Scanner(System.in);        
@@ -42,6 +42,7 @@ public class Jordan_K_Project4 {
         
         RoomCarpet totalCost = new RoomCarpet(cost, sqftCost);
         totalCost.getTotalCost();
+        System.out.println(cost.getWidth()+cost.getLength()+cost.getWidth());
         System.out.printf("The total cost of the carpet is: $ %,.2f.", 
                 totalCost.getTotalCost());
         

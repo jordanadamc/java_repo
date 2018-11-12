@@ -11,6 +11,7 @@ import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.util.Scanner;
 import java.io.IOException;
+import java.util.Arrays;
 
 //Create a text file that contains:
 //
@@ -37,8 +38,10 @@ public class Jordan_K_Project9 {
         readWrite.writeToArray(names);
         readWrite.writeFile();
         
-        System.out.println("File name:" + readWrite.getName());
-        readWrite.readFile();
+        
+        
+        System.out.println("File name:" + Arrays.toString(readWrite.readFile()));
+        //readWrite.readFile();
         
         
 

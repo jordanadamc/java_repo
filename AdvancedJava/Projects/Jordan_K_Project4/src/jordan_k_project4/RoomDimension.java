@@ -4,27 +4,33 @@
 //Calculates area and passes information to RoomCarpet Class.
 package jordan_k_project4;
 
-public class RoomDimension {
+public class RoomDimension  {
     double length;
     double width;
     double area;
-    double userLength;
-    double userWidth;    
+   // double userLength;
+   // double userWidth;    
     
 public RoomDimension(double userLength, double userWidth){
-    length = userLength;
-    width = userWidth;
+    this.length = userLength;
+    this.width = userWidth;
 }
 
-//    RoomDimension(RoomDimension dim) {
-//        throw new UnsupportedOperationException("Not supported yet."); 
-//    }
+public double getLength()
+{
+    return length;
+}
+public double getWidth()
+{
+    return width;
+}
+
 public void setLength(double userLength){
-   length = userLength;
+   this.length = userLength;
 }
 
 public void setWidth(double userWidth){
-    width = userWidth;
+    this.width = userWidth;
 }
     
 /**
